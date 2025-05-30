@@ -2,7 +2,7 @@
   --primary-color: #1e3a8a; 
   --secondary-color: #3b82f6;
   --accent-color: #f59e0b; 
-  --light-color: #f9fafb; 
+  --light-color:rgb(0, 93, 185); 
   --dark-color: #111827; 
   --gradient: linear-gradient(
     135deg,
@@ -28,9 +28,11 @@ body {
 
 /* Top Section */
 .top-section {
+   
   background: var(--gradient);
   color: white;
   padding: 12px 20px;
+  
 
   font-size: 0.9rem;
   display: flex;
